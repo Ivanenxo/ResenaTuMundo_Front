@@ -1,0 +1,23 @@
+<div class="formulario">
+  <h2 class="titulo">Iniciar Sesión</h2>
+  <form (ngSubmit)="login()" class="formlogin">
+    <div class="user">
+      <label for="email">Usuario</label>
+      <input type="email" [(ngModel)]="username" name="email" required>
+    </div>
+    <div class="password">   
+      <label for="Password">Contraseña</label>
+      <input type="password" [(ngModel)]="password" name="password" required>
+    </div>
+    <div class="form-submit">
+      <p id="register-link" class="register-link">
+        <a routerLink="/register">Quiero Registrarme</a>
+      </p>
+      <button type="submit">INGRESAR</button>
+    </div>
+  </form>
+
+  <ng-template #registrationForm>
+    <app-register></app-register>
+  </ng-template>
+</div>

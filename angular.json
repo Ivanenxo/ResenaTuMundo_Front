@@ -60,7 +60,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "resenatumundo:build:production"
+              "browserTarget": "resenatumundo:build:production",
+              "proxyConfig": "proxy.conf.json"
             },
             "development": {
               "browserTarget": "resenatumundo:build:development"
@@ -94,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "1b309589-de84-4cce-b63a-a3cf3d1047fa"
   }
 }

@@ -1,0 +1,25 @@
+
+<div class="container">
+    <h2 class="resena">Reseñas</h2>
+
+    <div class="filterControls">
+        <label for="tituloLibroFilter">Filtrar por Título:</label>
+        <input type="text" id="tituloLibroFilter" [(ngModel)]="tituloLibroFilter">
+    
+        <label for="usuarioFilter">Filtrar por Usuario:</label>
+        <input type="text" id="usuarioFilter" [(ngModel)]="usuarioFilter">
+      </div>
+      <div class="buttonFilter">
+      <button class="af" (click)="aplicarFiltros()">Aplicar Filtros</button>
+      <button class="lf" (click)="limpiarFiltros()">Limpiar Filtros</button>
+      </div>
+      
+
+    <ul>
+        <li *ngFor="let item of filteredResenas">
+            <div class="card-referencia">
+                {{ item.titulo_Libro }}:<br>{{ item.resena }}<br>Por: {{ item.nombre_Usuario }}
+            </div>
+        </li>
+    </ul>
+</div>
