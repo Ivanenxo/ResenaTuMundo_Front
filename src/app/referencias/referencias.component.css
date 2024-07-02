@@ -1,0 +1,65 @@
+.container{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, .5);
+    padding: 10px;
+}
+
+.card-referencia {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 10px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: space-evenly;
+  }
+
+  .buttonFilter{
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  .filterControls{
+    margin: 1%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .af{
+    background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+
+  .lf{
+    background-color: #d90c0c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  }
+
+  .resena{
+    display: block;
+    text-align: center;
+  }

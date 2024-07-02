@@ -1,0 +1,36 @@
+.titulo {
+    display: block;
+    text-align: center;
+  }
+  
+  .formAgregarReferencia {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formulario label {
+    margin-bottom: 5px;
+  }
+  
+  .formulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    resize: vertical; /* Permite redimensionar verticalmente */
+  }
+  
+  .formulario input,
+  .formulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .form-submit {
+    text-align: center;
+  }

@@ -1,0 +1,49 @@
+.dashboard {
+  display: block;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+  margin: 10%;
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+<!--menu-->
+
+nav {
+  background-color: #333;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightgray;
+}

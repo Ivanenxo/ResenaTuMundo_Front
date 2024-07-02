@@ -1,0 +1,23 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardHeader,
+  .cardBody,
+  .cardFooter {
+    padding: 16px;
+  }
+  
+  .cardHeader {
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cardFooter {
+    background-color: #f0f0f0;
+    border-top: 1px solid #ccc;
+  }

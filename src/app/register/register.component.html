@@ -1,0 +1,28 @@
+<div >
+    <form (ngSubmit)="register()" class="formRegister">
+        <div class="formulario">
+          <h2 class="titulo">Registro</h2>
+        <div class="user">
+          <label for="registrationUsername">Nombre de Usuario:</label>
+          <input type="text" [(ngModel)]="registrationUsername" name="registrationUsername" required>
+        </div>
+        <div class="password">
+          <label for="registrationPassword">Contraseña:</label>
+          <input type="password" [(ngModel)]="registrationPassword" name="registrationPassword" required>
+        </div>
+        <div class="email">
+            <label for="registrationEmail">Email:</label>
+            <input type="email" [(ngModel)]="registrationEmail" name="registrationEmail" required>
+          </div>
+        <!-- Puedes agregar más campos según tus necesidades -->
+  
+        <div class="form-submit">
+            <p id="login-link" class="login-link">
+                <a routerLink="/login">Volver al inicio de sesión</a>
+              </p>
+          <button type="submit">REGISTRAR</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  
